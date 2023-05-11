@@ -1,4 +1,5 @@
 dependencies: null
+
 lifecycle:
   create:
     commands:
@@ -12,11 +13,12 @@ lifecycle:
   upgrade:
     commands:
     - bash lifecycle/upgrade.sh
+
 metadata:
-  organisation-id: onp
+  organisation-id: cba
   pattern-categories:
   - RDBMS
-  pattern-description: Maintain Sessions inside the CommBiz app tier
-  pattern-id: onp.cba.rdbms.rds.sessiondb
-  pattern-name: cba.rdbms.rds.sessiondb
+  pattern-description: RDS SQL will be used for our CommBiz web UI to store and mange session data. 
+  pattern-id: cba.rdbms.rds.sessiondb
+  pattern-name: RDS - SQL – Session DB
   pattern-version: 1.0.0

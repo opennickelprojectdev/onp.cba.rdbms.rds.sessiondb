@@ -3,17 +3,17 @@
 ## Metadata
 | attribute               | value                                         |
 | ----------------------- | --------------------------------------------- |
-| pattern-id              | onp.base.template                             |
-| pattern-name            | base template                                 |
+| pattern-id              | cba.rdbms.rds.sessiondb                            |
+| pattern-name            | RDS - SQL – Session DB                                |
 | pattern-version         | 1.0.0                                         |
-| pattern-description     | Some description here                         |
-| organisation-id         | nc                                            |
-| pattern-categories      | bootstrap                                     |
+| pattern-description     | RDS SQL will be used for our CommBiz web UI to store and mange session data.                         |
+| organisation-id         | cba                                           |
+| pattern-categories      | RDBMS                                     |
 
 ## What is this pattern?
-This pattern is a basic template, modify it as you see fit
+This pattern helps to create an RDBMS on AWS RDS to manage and maintain App sessions.
 
-![](./diagrams/res/overview.png)
+![](./diagrams/res/session-mgt.png)
 
 ## What are the use cases?
 This pattern is a basic template, modify it as you see fit
