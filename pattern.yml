@@ -1,29 +1,24 @@
-metadata:
-  pattern-id: onp.base.template
-  pattern-name: base-template
-  organisation-id: onp
-  pattern-version: 1.0.0
-  pattern-description: some description here
-  pattern-categories: 
-              - bootstrap
+dependencies: null
 
 lifecycle:
   create:
     commands:
-      - bash lifecycle/create.sh
-
+    - bash lifecycle/create.sh
   delete:
     commands:
-      - bash lifecycle/delete.sh
-
+    - bash lifecycle/delete.sh
   update:
     commands:
-      - bash lifecycle/update.sh
-
+    - bash lifecycle/update.sh
   upgrade:
     commands:
-      - bash lifecycle/upgrade.sh
+    - bash lifecycle/upgrade.sh
 
-dependencies:
-
-
+metadata:
+  organisation-id: cba
+  pattern-categories:
+  - RDBMS
+  pattern-description: RDS SQL will be used for our CommBiz web UI to store and mange session data. 
+  pattern-id: cba.rdbms.rds.sessiondb
+  pattern-name: RDS - SQL – Session DB
+  pattern-version: 1.0.0
