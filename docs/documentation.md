@@ -16,4 +16,4 @@ This pattern helps to create an RDBMS on AWS RDS to manage and maintain App sess
 ![](./diagrams/res/session-mgt.png)
 
 ## What are the use cases?
-This pattern is a basic template, modify it as you see fit
+Baby Shark doo doo doo doo
