@@ -17,9 +17,3 @@ This pattern helps to create an RDBMS on AWS RDS to manage and maintain App sess
 
 ## What are the use cases?
 This pattern is a basic template, modify it as you see fit
-
-## Variables
-
-| Variable               | Source                                         | Value |
-| -----------------------| --------------------------------------------- | ------|
-| Var1                   | SSM Parameter | onp/bootstrap/base-template|
