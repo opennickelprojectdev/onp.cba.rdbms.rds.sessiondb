@@ -1,4 +1,4 @@
-# onp.base.template
+# RDS - SQL – Session DB
 
 ## Metadata
 | attribute               | value                                         |
